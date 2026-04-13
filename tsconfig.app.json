@@ -19,7 +19,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      "#continuum/*": ["./vendor/continuum-engine/src/js/*"],
+      "#ui/*": ["./ui/*"],
+      "#lib/*": ["./lib/*"]
+    }
   },
-  "include": ["src"]
+  "include": [
+    "ui"
+  ]
 }
